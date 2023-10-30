@@ -90,7 +90,7 @@ body {
 
 
 .btn-tutorial {
-    width: 60px;
+    width: 60px !important;
     background-color: #6b6b6b !important;
     height: 50px !important;
     color: #cbcbcb !important;
