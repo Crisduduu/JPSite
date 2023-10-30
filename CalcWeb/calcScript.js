@@ -2,6 +2,10 @@ $(document).ready(function() {
     $('#modalCalculadora').modal('show');
 });
 
+function abrirModalTutorial() {
+    document.getElementById("modalCalculadora").style.visibility = 'show';
+  }
+
 function appendToDisplay(value) {
     document.getElementById('display').value += value;
 }
@@ -52,7 +56,7 @@ document.addEventListener('keydown', (event) => {
             calculateResult();
         } else if (key === 'C') {
             clearDisplay();
-        } else if (key === '←') {
+        } else if (key === '<') {
             deleteLastCharacter();
         } else {
             appendToDisplay(key);

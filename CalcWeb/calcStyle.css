@@ -87,3 +87,11 @@ body {
     width: 100vw;  
     color: aliceblue;
 }
+
+
+.btn-tutorial {
+    width: 60px;
+    background-color: #6b6b6b !important;
+    height: 50px !important;
+    color: #cbcbcb !important;
+}

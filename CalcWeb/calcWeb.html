@@ -19,6 +19,9 @@
                 <li class="nav-item mr-2 text-center">
                     <a href="../index.html" class="nav-link">Home</a>
                 </li>
+                <li class="nav-item mr-2 text-center">
+                    <a href="" onclick="abrirModalTutorial()" class="nav-link">Tutorial</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -93,16 +96,27 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div id="modalHeader" class="modal-header">
-                            <h5 class="modal-title">Calculadora Jovem Programador.</h5>
+                            <h5 class="modal-title">Calculadora Jovem Programador - Instruções.</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div id="modalBody" class="modal-body">
-                            <p>Seja bem-vindo a nossa calculadora do Jovem programador.<br>
-                                O botão + você fara adição.<br>
-                                O botão - você fara subtração.<br>
-                                O botão / você fara divisão.<br>
-                                O botão * voê fara multiplicação. <br>
-                                E o % significa Resto! Você tera o resto da divisão.<br>
+                            <p><b>Seja bem-vindo a nossa calculadora do Jovem programador.</b><br>
+                                O botão <button class="btn btn-secondary btn-lg btn-tutorial mb-2 mt-2">C</button> irá apagar o ultimo caracter digitado.<br>
+                                
+                                O botão <button class="btn btn-light btn-lg btn-tutorial mb-2">AC</button> irá apagar tudo e reiniciar a operação.<br>
+                               
+                                O botão  <button class="btn btn-warning btn-lg operator btn-tutorial mb-2">+</button> você fara adição.<br>
+                                
+                                O botão <button class="btn btn-warning btn-tutorial btn-lg operator  mb-2">-</button> você fara subtração.<br>
+                                
+                                O botão <button class="btn btn-secondary btn-tutorial btn-lg mb-2">/</button> você fara divisão.<br>
+                                
+                                O botão <button class="btn btn-warning btn-lg operator btn-tutorial mb-2">*</button> você fara multiplicação. <br>
+                                
+                                O botão <button class="btn btn-secondary btn-lg btn-tutorial mb-2">%</button> significa Resto! Você tera o resto da divisão.<br>
+
+                                O botão<button class="btn btn-igual btn-lg btn-tutorial mb-2 mt-0">=</button> irá dar o resultado da sua operação. <br>
+
                             </p>
                         </div>
                         <div id="modalFooter" class="modal-footer">
