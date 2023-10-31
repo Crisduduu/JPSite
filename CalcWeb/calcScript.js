@@ -3,8 +3,9 @@ $(document).ready(function() {
 });
 
 function abrirModalTutorial() {
-    document.getElementById("modalCalculadora").style.visibility = 'show';
-  }
+    document.getElementById("modalCalculadora").style.display = 'block';
+}
+
 
 function appendToDisplay(value) {
     document.getElementById('display').value += value;

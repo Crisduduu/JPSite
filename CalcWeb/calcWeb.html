@@ -10,19 +10,23 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#"><b id="Jovem">JOVEM</b><b id="Programador">PROGRAMADOR</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-
-        <nav id="cabecalho" class="navbar navbar-expand navbar-dark bg-primary sticky-top">
-            <a class="navegacao-index navbar-brand mr-5 ml-5"><b id="Jovem">JOVEM</b><b
-                    id="Programador">PROGRAMADOR</b></a>
-            <ul class="navbar-nav nav-tabs mr-auto navegacao-index text">
-                <li class="nav-item mr-2 text-center">
-                    <a href="../index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item mr-2 text-center">
-                    <a href="" onclick="abrirModalTutorial()" class="nav-link">Tutorial</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto align-items-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalCalculadora"
+                            href=""><button class="btn btn-outline-light">Tutorial</button></i></a>
+                    </li>
+            </div>
         </nav>
     </header>
     <main class="container">
@@ -82,14 +86,16 @@
                 </div>
             </div>
             </div>
-            <section id="conteudo-adicional" class="mt-5">
+            <footer id="conteudo-adicional" class="mt-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
                             <p>Desenvolvida por Cristofer Eduardo Medeiros ©️</p>
                         </div>
                     </div>
-            </section>
+            </footer>
+
+
 
             <!--Modal calculadora-->
             <div id="modalCalculadora" class="modal" tabindex="-1" role="dialog">
@@ -101,21 +107,29 @@
                         </div>
                         <div id="modalBody" class="modal-body">
                             <p><b>Seja bem-vindo a nossa calculadora do Jovem programador.</b><br>
-                                O botão <button class="btn btn-secondary btn-lg btn-tutorial mb-2 mt-2">C</button> irá apagar o ultimo caracter digitado.<br>
-                                
-                                O botão <button class="btn btn-light btn-lg btn-tutorial mb-2">AC</button> irá apagar tudo e reiniciar a operação.<br>
-                               
-                                O botão  <button class="btn btn-warning btn-lg operator btn-tutorial mb-2">+</button> você fara adição.<br>
-                                
-                                O botão <button class="btn btn-warning btn-tutorial btn-lg operator  mb-2">-</button> você fara subtração.<br>
-                                
-                                O botão <button class="btn btn-secondary btn-tutorial btn-lg mb-2">/</button> você fara divisão.<br>
-                                
-                                O botão <button class="btn btn-warning btn-lg operator btn-tutorial mb-2">*</button> você fara multiplicação. <br>
-                                
-                                O botão <button class="btn btn-secondary btn-lg btn-tutorial mb-2">%</button> significa Resto! Você tera o resto da divisão.<br>
+                                O botão <button class="btn btn-secondary btn-lg btn-tutorial mb-2 mt-2">C</button> irá
+                                apagar o ultimo caracter digitado.<br>
 
-                                O botão<button class="btn btn-igual btn-lg btn-tutorial mb-2 mt-0">=</button> irá dar o resultado da sua operação. <br>
+                                O botão <button class="btn btn-light btn-lg btn-tutorial mb-2">AC</button> irá apagar
+                                tudo e reiniciar a operação.<br>
+
+                                O botão <button class="btn btn-warning btn-lg operator btn-tutorial mb-2">+</button>
+                                você fara adição.<br>
+
+                                O botão <button class="btn btn-warning btn-tutorial btn-lg operator  mb-2">-</button>
+                                você fara subtração.<br>
+
+                                O botão <button class="btn btn-secondary btn-tutorial btn-lg mb-2">/</button> você fara
+                                divisão.<br>
+
+                                O botão <button class="btn btn-warning btn-lg operator btn-tutorial mb-2">*</button>
+                                você fara multiplicação. <br>
+
+                                O botão <button class="btn btn-secondary btn-lg btn-tutorial mb-2">%</button> significa
+                                Resto! Você tera o resto da divisão.<br>
+
+                                O botão<button class="btn btn-igual btn-lg btn-tutorial mb-2 mt-0">=</button> irá dar o
+                                resultado da sua operação. <br>
 
                             </p>
                         </div>
