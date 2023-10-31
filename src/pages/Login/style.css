@@ -25,7 +25,7 @@ body {
 
 /*Estilização da apresentacao*/
 #apresentacao {
-    background: url('./img/img-banner/image3-8-1024x576.jpg') no-repeat;
+    background: url('../../../src/assets/img/img-banner/image3-8-1024x576.jpg') no-repeat;
     background-position: 75% 25%;
     width: 100%;
     background-size: 100%;
@@ -46,7 +46,7 @@ body {
 /*Estilização da inscrição*/
 #inscricao {
     height: 800px;
-    background-image: url(./img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+    background-image: url(../../../src/assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -246,7 +246,7 @@ footer {
     /*responsividade da inscrição*/
     #inscricao {
         height: 800px;
-        background-image: url(./img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+        background-image: url(../../../src/assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -360,7 +360,7 @@ footer {
     /*responsividade da inscrição*/
     #inscricao {
         height: 800px;
-        background-image: url(./img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+        background-image: url(./../../../src/assets/img/s-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -514,7 +514,7 @@ footer {
     /*responsividade da inscrição*/
     #inscricao {
         height: 900px;
-        background-image: url(./img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+        background-image: url(../../../src/assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
