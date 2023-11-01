@@ -25,7 +25,7 @@ body {
 
 /*Estilização da apresentacao*/
 #apresentacao {
-    background: url('../../../src/assets/img/img-banner/image3-8-1024x576.jpg') no-repeat;
+    background: url('../assets/img/img-banner/wepik-export-20231101000434Lg9o.jpeg') no-repeat;
     background-position: 75% 25%;
     width: 100%;
     background-size: 100%;
@@ -46,7 +46,7 @@ body {
 /*Estilização da inscrição*/
 #inscricao {
     height: 800px;
-    background-image: url(../../../src/assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+    background-image: url(../assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -66,6 +66,10 @@ footer {
 
 }
 
+.dropdown-item{
+    color: #FFF;
+}
+
 .imgs-feedback {
     height: 150px !important;
     width: 150px !important;
@@ -74,8 +78,8 @@ footer {
 /*Estilização do botão que leva ao topo instantaneamente.*/
 #botaoHome {
     position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     bottom: 40px;
     right: 40px;
     background-color: #007bf7;
@@ -85,7 +89,7 @@ footer {
     font-size: 30px;
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
-    padding: 8px;
+    padding: px;
 }
 
 .card-img-top {
@@ -246,7 +250,7 @@ footer {
     /*responsividade da inscrição*/
     #inscricao {
         height: 800px;
-        background-image: url(../../../src/assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+        background-image: url(../assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -360,7 +364,7 @@ footer {
     /*responsividade da inscrição*/
     #inscricao {
         height: 800px;
-        background-image: url(./../../../src/assets/img/s-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+        background-image: url(../assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -514,7 +518,7 @@ footer {
     /*responsividade da inscrição*/
     #inscricao {
         height: 900px;
-        background-image: url(../../../src/assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
+        background-image: url(../assets/img/imgs-body/Captura_de_tela_2023-10-23_200831-transformed.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -541,7 +545,7 @@ footer {
     #botaoHome{
         width: 50px;
         height: 50px;
-        padding-top: 0px;
+        padding: 0px;
         margin: 0;
         right: 10px;
         bottom: 10px;
